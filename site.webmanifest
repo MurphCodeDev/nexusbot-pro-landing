@@ -1,0 +1,16 @@
+{
+  "name": "NexusBot Pro",
+  "short_name": "NexusBot",
+  "description": "Automated crypto trading software for strategy execution, risk management, and live portfolio monitoring.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050913",
+  "theme_color": "#00d68f",
+  "icons": [
+    {
+      "src": "/assets/icons/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ]
+}
