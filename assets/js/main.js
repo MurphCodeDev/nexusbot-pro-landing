@@ -1,5 +1,5 @@
 const DOWNLOAD_URL =
-  "https://raw.githubusercontent.com/example/nexusbot-pro/main/downloads/NexusBotPro-Latest.zip";
+  "https://github.com/MurphCodeDev/nexusbot-pro-landing/releases/download/1.0.0/Nexusbot.exe";
 
 document.querySelectorAll("[data-download]").forEach((link) => {
   link.setAttribute("href", DOWNLOAD_URL);
