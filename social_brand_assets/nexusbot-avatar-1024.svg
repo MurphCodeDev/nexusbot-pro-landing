@@ -1,0 +1,45 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  
+  <defs>
+    <radialGradient id="glowA-avatar" cx="22%" cy="18%" r="55%">
+      <stop stop-color="#00d68f" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#00d68f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB-avatar" cx="78%" cy="78%" r="55%">
+      <stop stop-color="#4b8eff" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#4b8eff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel-avatar" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#02050b"/>
+      <stop offset="0.55" stop-color="#050913"/>
+      <stop offset="1" stop-color="#07152b"/>
+    </linearGradient>
+    <pattern id="grid-avatar" width="86" height="86" patternUnits="userSpaceOnUse">
+      <path d="M86 0H0V86" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1024" height="1024" fill="url(#panel-avatar)"/>
+  <rect width="1024" height="1024" fill="url(#glowA-avatar)"/>
+  <rect width="1024" height="1024" fill="url(#glowB-avatar)"/>
+  <rect width="1024" height="1024" fill="url(#grid-avatar)" opacity="0.55"/>
+  <path d="M -80 348.16 C 184.32 225.28, 348.16 491.52, 532.48 368.64 S 798.72 184.32, 1104 307.2" stroke="#00d68f" stroke-opacity="0.18" stroke-width="2"/>
+  <path d="M -90 737.28 C 225.28 573.44, 430.08 860.16, 675.84 696.32 S 901.12 532.48, 1114 634.88" stroke="#4b8eff" stroke-opacity="0.12" stroke-width="2"/>
+  
+    <circle cx="512" cy="512" r="382" fill="rgba(3,8,18,0.82)" stroke="rgba(0,214,143,0.34)" stroke-width="3"/>
+    <circle cx="512" cy="512" r="310" fill="rgba(0,214,143,0.06)"/>
+    
+  <g transform="translate(262 238) scale(3.125)">
+    <defs>
+      <linearGradient id="markGradient-262-238" x1="18" y1="18" x2="142" y2="142" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#00d68f"/>
+        <stop offset="1" stop-color="#4b8eff"/>
+      </linearGradient>
+    </defs>
+    <path d="M80 10 140 45v70l-60 35-60-35V45L80 10Z" fill="#06101f" stroke="url(#markGradient-262-238)" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M48 111V49l64 62V49" stroke="#f7fbff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M46 116h68" stroke="#00d68f" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  
+</svg>
